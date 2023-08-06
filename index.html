@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>*{
+    margin:0;
+    padding:0;
+}
+
+h2{
+    text-align: center;
+    color:blue;
+}
+
+header{
+    background-image: url(ali-shah-lakhani-sp1BZ1atp7M-unsplash.jpg);
+    background-position: center;
+    height: 300px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:0.8;
+}
+header h1{
+    font-size: 60px;
+    color:white;
+}
+.stream{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>SUMMER OF CODE</h1>
+    </header>
+    <h2>Real Time Driver Drowsiness Detection</h2>
+    <div class="stream">
+
+        <img src="{{ url_for('video') }}" width="50%" alt="">
+    </div>
+    
+    <h1>Thank You</h1>
+</body>
+</html>
